@@ -2,3 +2,6 @@ python-imagine-sdk
 python-dotenv
 flask
 flask-cors
+faster-whisper
+av<14
+imageio-ffmpeg
