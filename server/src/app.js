@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import summaryRoutes from "./routes/summaryRoutes.js"
 
 const app = express();
 
@@ -11,8 +10,6 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-app.use("/api", summaryRoutes);
 
 // Routes
 app.get("/", (req, res) => {
